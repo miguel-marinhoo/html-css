@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+   font-family: sans-serif; 
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+a::after{
+content: ' ←';
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+color: darkgray;
+}
+a::before{
+    content: '→ ';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: darkgray;
+    }
+    .especial{
+        background-color: rgba(34, 139, 34, 0.603);
+    }
