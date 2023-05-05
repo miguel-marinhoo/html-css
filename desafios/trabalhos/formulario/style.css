@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    background-color: beige;
+    margin: 0px;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    background-color: #9E842F;
+    margin: 0px;
+    padding: 25px;
+}
+
+header > p{
+    font-family: "Bebas Neue";
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+header > h1{
+    margin: auto;
+    font-family: "Bebas Neue";
+    font-size: 4em;
+}
+nav{
+    background-color: #9E842F;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+nav > a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: #FFECAD;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: #9E842F;
+}
+main{
+    background-color: white;
+    height: 450px;
+    margin: 30px;
+}
+main > h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Bebas Neue";
+    color: #B58943;
+    font-size: 3em;}
